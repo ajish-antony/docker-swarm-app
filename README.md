@@ -16,7 +16,7 @@ A compose file has been written  for the PHP and Nginx services. Where the Nginx
 ## Architecture
 ![
 alt_txt
-](https://i.ibb.co/Vgtxw6p/stack-2.jpg)
+](https://i.ibb.co/7gmyJRb/stack-5.jpg)
 
 ## Pre-Requests
 - Docker and docker-compose should be installed.
