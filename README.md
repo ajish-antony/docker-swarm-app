@@ -79,7 +79,7 @@ docker node update --availability=drain <Manager_IP_Address>
 ```sh
  docker service create --name registry --publish published=5000,target=5000 registry:2
 ````
-- Confirm status with "docker service ls". Further moves forward with starting the application as we have already prepared the docker-compose.yml file.  For the same execute the command.
+- Confirm status with `docker service ls`. Further moves forward with starting the application as we have already prepared the docker-compose.yml file.  For the same execute the command.
 ```sh
 docker-compose up -d
 ```
