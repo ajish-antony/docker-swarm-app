@@ -45,7 +45,7 @@ services:
     container_name: nginx
     volumes:
       - /var/nfs:/var/www/html/
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - /var/nfs/nginx.conf:/etc/nginx/conf.d/default.conf
     ports:
       - "80:80"
     networks:
