@@ -71,7 +71,6 @@ systemctl restart nfs-kernel-server
 
 ### Deploy Stack to Swarm 
 - Initially change the availability to drain for the manager while proceeding.
-- 
 ```sh
 docker node update --availability=drain <Manager_IP_Address>
 ```
