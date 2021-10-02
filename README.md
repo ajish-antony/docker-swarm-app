@@ -70,6 +70,11 @@ systemctl restart nfs-kernel-server
 - After making the changes as mentioned mount the same path in every system. 
 
 ### Deploy Stack to Swarm 
+- Initially change the availability to drain for the manager while proceeding.
+- 
+```sh
+docker node update --availability=drain <Manager_IP_Address>
+```
 
 - Deploying  stack to swarm, as the stack command supports compose file. Initially created a registry to distribute images (either can use the Docker hub). 
 ```sh
